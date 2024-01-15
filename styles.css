@@ -1,0 +1,47 @@
+body {
+    background: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705276800&semt=sph");
+
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 90vh;
+}
+
+h1 {
+
+    font-size: 4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@keyframes zoom {
+    from {
+        font-size: 4em;
+        background-color: red;
+    }
+
+    to {
+        font-size: 5em;
+        background-color: aqua;
+
+    }
+}
+
+
+.buttons {
+    text-align: center;
+}
+
+
+button {
+    font-size: 2em;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+button:nth-child(4) {
+    width: 100px;
+}
